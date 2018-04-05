@@ -1,0 +1,21 @@
+Package: cointoss
+Type: Package
+Title: Coin Tossing
+Version: 0.1.0
+Authors@R: person("Gaston", "Sanchez", email = "gaston.stat@gmail.com",
+                  role = c("aut", "cre"))
+Description: Provides functions to simulate tossing a coin multiple times.
+Depends:
+    R (>= 3.1.0)
+License: BSD
+Encoding: UTF-8
+LazyData: true
+Collate:
+    coin.R
+    toss.R
+    plot-toss.R
+    other-toss-methods.R
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
