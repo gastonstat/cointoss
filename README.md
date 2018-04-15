@@ -23,10 +23,13 @@ Install the development version from GitHub via the package
 
 ``` r
 # development version from GitHub:
-install.packages("devtools") 
+#install.packages("devtools") 
 
-# install "cointoss"
-devtools::install_github("ucb-stat133/cointoss")
+# install "cointoss" (without vignettes)
+devtools::install_github("gastonstat/cointoss")
+
+# install "cointoss" (with vignettes)
+devtools::install_github("gastonstat/cointoss", build_vignettes = TRUE)
 ```
 
 ## Usage
