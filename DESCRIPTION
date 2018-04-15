@@ -7,7 +7,7 @@ Authors@R: person("Gaston", "Sanchez", email = "gaston.stat@gmail.com",
 Description: Provides functions to simulate tossing a coin multiple times.
 Depends:
     R (>= 3.1.0)
-License: BSD
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Collate:

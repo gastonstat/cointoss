@@ -1,4 +1,4 @@
-context("Coin arguments")
+context("Check coin arguments")
 
 test_that("check_sides with ok vectors", {
   

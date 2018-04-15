@@ -36,3 +36,6 @@ cent1 <- coin(c('lincoln', 'shield'))
 loaded <- coin(prob = c(0.7, 0.3))
 
 }
+\seealso{
+\code{\link{toss}}
+}

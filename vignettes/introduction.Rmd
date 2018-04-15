@@ -4,7 +4,7 @@ author: "Gaston Sanchez"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Getting Started with cointoss}
+  %\VignetteIndexEntry{Introduction to cointoss}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

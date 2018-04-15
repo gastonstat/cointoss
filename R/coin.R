@@ -3,6 +3,7 @@
 #' @param sides vector of coin sides
 #' @param prob vector of side probabilities
 #' @return an object of class \code{"coin"}
+#' @seealso \code{\link{toss}}
 #' @export
 #' @examples
 #' # default 

@@ -96,8 +96,8 @@ print.summary.toss <- function(x, ...) {
 
 #' @export
 "[<-.toss" <- function(x, i, value) {
-  if (value != x$coin[1] & value != x$coin[2]) {
-    stop(sprintf('\nreplacing value must be %s or %s', x$coin[1], x$coin[2]))
+  if (value != x$coin$sides[1] & value != x$coin$sides[2]) {
+    stop(sprintf('\nreplacing value must be %s or %s', x$coin$sides[1], x$sides$coin[2]))
   }
   if (i > x$total) {
     stop("\nindex out of bounds")
