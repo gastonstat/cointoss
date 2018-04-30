@@ -20,7 +20,15 @@ test_that("check_sides fails with invalid types", {
   
   expect_error(check_sides(c('one', 'two', 'three')))
   expect_error(check_sides(c('one')), 
-               "\n'prob' must be a vector of length 2")
+               "\n'sides' must be a vector of length 2")
+})
+
+
+test_that("check_sides fails with duplications", {
+  
+  expect_error(check_sides(c('one', 'one')))
+  expect_error(check_sides(c('one', 'one')), 
+               "\n'sides' has duplicated elements")
 })
 
 

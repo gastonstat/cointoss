@@ -33,10 +33,13 @@ coin <- function(sides = c("heads", "tails"), prob = c(0.5, 0.5)) {
 # private function to check vector of sides
 check_sides <- function(sides) {
   if (length(sides) != 2) {
-    stop("\n'prob' must be a vector of length 2")
+    stop("\n'sides' must be a vector of length 2")
   } 
   if (!is.numeric(sides) & !is.character(sides)) {
     stop("\n'sides' must be a character or numeric vector")
+  }
+  if (any(duplicated(sides))) {
+    stop("\n'sides' has duplicated elements")
   }
   TRUE
 }
