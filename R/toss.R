@@ -116,7 +116,7 @@ print.summary.toss <- function(x, ...) {
 #' @export
 "+.toss" <- function(obj, incr) {
   if (length(incr) != 1 | incr <= 0) {
-    stop("\ninvalid increament")
+    stop("\ninvalid increment")
   }
   more_flips <- flip(obj$coin, times = incr)
   make_toss(obj$coin, c(obj$tosses, more_flips))
