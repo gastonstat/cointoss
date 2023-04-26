@@ -60,7 +60,7 @@ summary(toss100)
 
 ## Plot of relative frequencies
 
-You can use the function `plot()` to create a graohic with the relative 
+You can use the function `plot()` to create a graphic with the relative 
 frequencies of a series of coin tosses:
 
 ```{r, fig.show='hold'}
